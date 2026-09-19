@@ -155,7 +155,61 @@ function go(id){
   $$("section.view").forEach(s=>s.classList.toggle("on", s.id==="v-"+id));
   location.hash = id;
   window.scrollTo(0,0);
+  syncWikiMenu();
   applySearch();
+}
+
+/* ================= ODKAZ NA WIKI ================= */
+const WIKI = "https://zaklinac.fandom.com/";
+const wikiUrl = pg => WIKI + "wiki/" + encodeURIComponent(pg.replace(/ /g, "_"));
+/* hledání nikdy neskončí na neexistující stránce, na rozdíl od přímého odkazu */
+const wikiFind = q => WIKI + "wiki/Special:Search?query=" + encodeURIComponent(q) + "&scope=internal";
+const WIKITABS = [
+  {v:"zaklady",     t:"Alchymie v Zaklínači", p:"Alchymie v Zaklínači"},
+  {v:"elixiry",     t:"Elixíry",              p:"Elixíry"},
+  {v:"oleje",       t:"Oleje",                p:"Oleje"},
+  {v:"petardy",     t:"Petardy",              p:"Petardy"},
+  {v:"ingredience", t:"Přísady",              p:"Přísady"},
+  {v:"bestiar",     t:"Nestvůry",             p:"Nestvůry"},
+  {v:"knihy",       t:"Knihy ve hře",         p:"Knihy ve hře"}
+];
+const WIKIMORE = [
+  {t:"Substance",        p:"Substance"},
+  {t:"Alkohol",          p:"Alkohol"},
+  {t:"Toxicita",         p:"Toxicita"},
+  {t:"Meditace",         p:"Meditace"},
+  {t:"Zaklínač (PC hra)",p:"Zaklínač (PC hra)"}
+];
+function renderWikiMenu(){
+  const m = $("#wiki-menu"); if (!m) return;
+  const a = l => '<a href="'+wikiUrl(l.p)+'" target="_blank" rel="noopener"'+
+    (l.v?' data-v="'+l.v+'"':'')+'>'+esc(l.t)+'</a>';
+  m.innerHTML = '<div class="wm-h">Česká Zaklínač Wiki &ndash; zdroj dat</div>'+
+    WIKITABS.map(a).join("") + '<hr>' + WIKIMORE.map(a).join("");
+  syncWikiMenu();
+}
+function syncWikiMenu(){
+  $$("#wiki-menu a[data-v]").forEach(x=>x.classList.toggle("cur", x.dataset.v===CUR));
+}
+function initWiki(){
+  renderWikiMenu();
+  const btn = $("#wiki-btn"), menu = $("#wiki-menu");
+  if (!btn || !menu) return;
+  const close = ()=>{ menu.classList.remove("on"); btn.classList.remove("on"); btn.setAttribute("aria-expanded","false"); };
+  btn.onclick = e=>{
+    e.stopPropagation();
+    const open = !menu.classList.contains("on");
+    menu.classList.toggle("on", open); btn.classList.toggle("on", open);
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  };
+  document.addEventListener("click", e=>{ if (!e.target.closest || !e.target.closest(".wikibox")) close(); });
+  document.addEventListener("keydown", e=>{ if (e.key==="Escape") close(); });
+}
+/* výška lepící hlavičky – ať se pod ni schová i záhlaví tabulky */
+function setHeaderVar(){
+  const h = $("header.top");
+  if (h && document.documentElement && document.documentElement.style)
+    document.documentElement.style.setProperty("--hh", (h.offsetHeight || 0) + "px");
 }
 
 /* ================= ZÁKLADY ================= */
@@ -290,7 +344,13 @@ function drawerHead(icon, title, sub){
   $("#drawer-h").innerHTML = back + img(icon,"f")+
     '<div style="min-width:0"><div class="dtitle">'+esc(title)+'</div>'+
     '<div class="tiny muted">'+sub+'</div></div>'+
-    '<button class="xbtn" id="drawer-close">&times;</button>';
+    '<span class="dh-actions">'+
+      '<a class="xbtn" href="'+wikiFind(title)+'" target="_blank" rel="noopener" '+
+        'title="Najít „'+esc(title)+'“ na české Zaklínač Wiki">'+
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+
+        '<path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>'+
+      '<button class="xbtn" id="drawer-close">&times;</button>'+
+    '</span>';
   const b = $("#drawer-back"); if (b) b.onclick = drawerBack;
   $("#drawer-close").onclick = window.__closeDrawer;
 }
@@ -1170,6 +1230,9 @@ function init(){
   renderPlanner();
 
   initTips();
+  initWiki();
+  setHeaderVar();
+  window.addEventListener("resize", setHeaderVar);
   $("#q").addEventListener("input", applySearch);
   $("#drawer-bg").onclick = window.__closeDrawer;
   document.addEventListener("keydown", e=>{

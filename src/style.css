@@ -32,10 +32,30 @@ code,kbd{font-family:Consolas,monospace; background:#000; padding:1px 5px; borde
 /* ---------- layout ---------- */
 .wrap{max-width:1280px; margin:0 auto; padding:0 18px 80px}
 header.top{
+  position:sticky; top:0; z-index:30;
   border-bottom:1px solid var(--line);
   background:linear-gradient(180deg,#191309 0%, #0d0a07 100%);
   box-shadow:0 8px 30px rgba(0,0,0,.6);
 }
+
+/* ---------- odkaz na wiki ---------- */
+.wikibox{position:relative; flex:0 0 auto; padding-bottom:12px}
+.wikibtn{width:38px;height:38px;border:1px solid var(--line2);background:#0a0806;color:var(--gold-dim);
+  border-radius:3px;cursor:pointer;display:grid;place-items:center;transition:.13s}
+.wikibtn svg{width:21px;height:21px}
+.wikibtn:hover,.wikibtn.on{color:var(--gold-lite);border-color:var(--gold-dim);background:rgba(201,162,39,.12)}
+.wikimenu{position:absolute;right:0;top:44px;min-width:262px;z-index:50;display:none;padding:6px;
+  background:linear-gradient(180deg,#221b13,#100c08);border:1px solid var(--gold-dim);border-radius:4px;
+  box-shadow:0 14px 36px rgba(0,0,0,.75)}
+.wikimenu.on{display:block}
+.wikimenu .wm-h{font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--txt-dim);padding:6px 10px 5px}
+.wikimenu a{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:3px;
+  color:var(--txt);text-decoration:none;font-size:.88rem}
+.wikimenu a:hover{background:rgba(201,162,39,.13);color:var(--gold-lite)}
+.wikimenu a.cur{color:var(--gold-lite)}
+.wikimenu a.cur::after{content:"tato záložka";margin-left:auto;font-size:.68rem;color:var(--gold-dim);
+  letter-spacing:.06em;text-transform:uppercase}
+.wikimenu hr{border:none;border-top:1px solid var(--line);margin:5px 8px}
 .top-inner{max-width:1280px; margin:0 auto; padding:18px 18px 0; display:flex; flex-wrap:wrap; align-items:flex-end; gap:16px}
 .brand{display:flex; align-items:center; gap:14px; flex:1 1 320px}
 .brand .medal{
@@ -139,6 +159,9 @@ hr.orn{border:none;height:14px;margin:26px 0;
   border-radius:3px;cursor:pointer;font-size:1rem;line-height:1;flex:0 0 auto}
 .xbtn:hover{color:var(--gold-lite);border-color:var(--gold-dim)}
 .xbtn.back{margin-left:0;margin-right:-4px;color:var(--gold);border-color:var(--gold-dim);font-size:1.15rem}
+.dh-actions{margin-left:auto;display:flex;gap:6px;flex:0 0 auto}
+.dh-actions .xbtn{margin-left:0;display:grid;place-items:center;text-decoration:none}
+.dh-actions .xbtn svg{width:17px;height:17px}
 .xbtn.back:hover{background:rgba(201,162,39,.14)}
 .dtitle{font-family:var(--serif);color:var(--gold-lite);font-size:1.25rem;line-height:1.2;
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -185,7 +208,7 @@ hr.orn{border:none;height:14px;margin:26px 0;
 .tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:4px;background:#110d09}
 table{border-collapse:collapse;width:100%;font-size:.9rem}
 th,td{padding:7px 10px;text-align:left;border-bottom:1px solid #251d14;vertical-align:middle}
-thead th{position:sticky;top:0;background:#1d1710;color:var(--gold);font-family:var(--serif);font-size:.76rem;
+thead th{position:sticky;top:var(--hh,0px);background:#1d1710;color:var(--gold);font-family:var(--serif);font-size:.76rem;
   letter-spacing:.09em;text-transform:uppercase;cursor:pointer;white-space:nowrap;z-index:1;border-bottom:1px solid var(--line2)}
 thead th:hover{color:var(--gold-lite)}
 tbody tr:hover{background:rgba(201,162,39,.055)}

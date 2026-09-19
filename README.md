@@ -2,7 +2,7 @@
 
 Offline HTML příručka alchymie k první hře *Zaklínač* (2007), v českém znění hry.
 
-**Výsledek:** `../Zaklinac-Alchymie.html` – jediný soubor, stačí otevřít v prohlížeči.
+**Výsledek:** `Zaklinac-Alchymie.html` – jediný soubor, stačí otevřít v prohlížeči.
 Funguje bez internetu, ikony i data jsou zabudované uvnitř.
 
 ## Co obsahuje
@@ -26,6 +26,11 @@ Vlastní zásoba se ukládá do `localStorage` prohlížeče.
 Toxicita se počítá ve skutečných herních bodech (nízká 10–14, střední 15–20, vysoká 21–25,
 velmi vysoká 26–30; nad 50 vedlejší účinky, na 100 smrt), takže plán i sestava ukazují
 reálné rozpětí a upozorní, kdy se vyplatí proložit pití meditací.
+
+**Odkaz na wiki:** ikona knihy v pravém rohu hlavičky otevře nabídku odkazů na českou
+Zaklínač Wiki – položka odpovídající právě otevřené záložce je zvýrazněná. Hlavička je
+přilepená nahoře, takže je po ruce pořád. V hlavičce zásuvky je navíc ikonka, která
+vyhledá právě otevřenou přísadu, recept nebo knihu přímo na wiki.
 
 **Ovládání detailu:** najetím myší na přísadu nebo recept vyskočí tooltip se složením,
 způsobem získání a cenou. Proklikem se otevře plný detail a v hlavičce zásuvky přibude

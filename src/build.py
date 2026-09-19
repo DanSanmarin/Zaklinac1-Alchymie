@@ -4,7 +4,7 @@ import json, os, datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-OUT  = os.path.join(os.path.dirname(ROOT), "Zaklinac-Alchymie.html")
+OUT  = os.path.join(ROOT, "Zaklinac-Alchymie.html")
 
 def read(p):
     return open(os.path.join(ROOT, p), encoding="utf-8").read()

@@ -2,6 +2,17 @@
 
 Offline HTML příručka alchymie k první hře *Zaklínač* (2007), v českém znění hry.
 
+---
+
+<img width="1279" height="909" alt="Screenshot 2026-09-19 152033" src="https://github.com/user-attachments/assets/728ac9ef-534a-44dc-8b53-1f28c8c4f0f0" />
+<img width="1281" height="907" alt="Screenshot 2026-09-19 151942" src="https://github.com/user-attachments/assets/6dce16d1-3609-4c8e-aa99-eed43dff730f" />
+<img width="1590" height="905" alt="Screenshot 2026-09-19 151906" src="https://github.com/user-attachments/assets/d64cf5e5-a977-4fc4-8354-b0be2e3674c5" />
+<img width="1583" height="909" alt="Screenshot 2026-09-19 151836" src="https://github.com/user-attachments/assets/600c80fe-480c-46a6-ae2c-2e10d4beca6a" />
+<img width="1297" height="910" alt="Screenshot 2026-09-19 151736" src="https://github.com/user-attachments/assets/70680be9-c193-4f2b-a0f6-343c607e7c31" />
+
+
+---
+
 **Výsledek:** `Zaklinac-Alchymie.html` – jediný soubor, stačí otevřít v prohlížeči.
 Funguje bez internetu, ikony i data jsou zabudované uvnitř.
 

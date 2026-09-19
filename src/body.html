@@ -1,0 +1,225 @@
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <div class="medal" title="Vlčí medailon">
+        <svg viewBox="0 0 64 64" fill="none" stroke="#c9a227" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+          <path d="M14 10 L22 26 L18 46 L32 56 L46 46 L42 26 L50 10 L38 18 L32 14 L26 18 Z"/>
+          <path d="M24 32 L28 34 L24 36 Z" fill="#c9a227"/>
+          <path d="M40 32 L36 34 L40 36 Z" fill="#c9a227"/>
+          <path d="M28 44 L32 48 L36 44"/>
+        </svg>
+      </div>
+      <div>
+        <h1>Alchymistická příručka</h1>
+        <div class="sub">Zaklínač &nbsp;·&nbsp; kompletní kompendium</div>
+      </div>
+    </div>
+    <div class="searchbox">
+      <span class="mag">&#9906;</span>
+      <input id="q" type="search" placeholder="Hledat elixír, ingredienci, nestvůru…" autocomplete="off">
+    </div>
+  </div>
+  <nav class="tabs" id="tabs"></nav>
+</header>
+
+<div class="wrap">
+
+<div id="q-hint" class="qhint"></div>
+
+<!-- ============ ZÁKLADY ============ -->
+<section class="view" id="v-zaklady">
+  <div class="panel">
+    <h2>Jak alchymie funguje</h2>
+    <p>K namíchání jakékoli směsi potřebuješ čtyři věci: <b>recept</b>, <b>základ</b>, <b>ingredience</b> a <b>místo k meditaci</b>.
+    Vyrábět i pít elixíry lze <b>pouze při meditaci</b> &ndash; nikdy ne uprostřed boje. Plánuj proto dopředu:
+    než vejdeš do hrobky nebo do kanálů, sedni si k ohni a nalij do sebe, co budeš potřebovat.</p>
+    <div class="grid g3" style="margin-top:14px">
+      <div class="panel tight"><h3>Základ</h3><p class="small muted" style="margin:0">Alkohol pro elixíry, tuk pro oleje, výbušný prach pro petardy. Kvalita základu určuje, kolik ingrediencí se do něj vejde (3&ndash;5).</p></div>
+      <div class="panel tight"><h3>Ingredience</h3><p class="small muted" style="margin:0">Rostliny (potřebuješ <i>bylinkářství</i>), části nestvůr (<i>stahování zvěře</i>) a minerály (kupuješ). U rostlin i nestvůr musíš navíc znát jejich alchymické využití &ndash; z knih a herbářů.</p></div>
+      <div class="panel tight"><h3>Recept</h3><p class="small muted" style="margin:0">Svitek koupíš, najdeš nebo dostaneš odměnou. Bez receptu lze experimentovat &ndash; ale neúspěch znamená <i>nepovedený lektvar</i> a vyhozené suroviny.</p></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Primární substance</h2>
+    <p class="small muted">Každá alchymická ingredience obsahuje právě jednu primární substanci. Recept říká, kolik kterých substancí je potřeba &ndash; a je úplně jedno, ze které ingredience je vezmeš.</p>
+    <div class="grid g3" id="prim-subs"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Sekundární substance &ndash; dominanty</h2>
+    <p>Některé ingredience nesou navíc <b>sekundární</b> substanci. Pokud je <b>celý elixír</b> namíchaný výhradně z ingrediencí se <b>stejnou</b> sekundární substancí, získá navíc bonusový efekt zvaný <b>dominanta</b>. Platí jen pro elixíry &ndash; u olejů ani petard dominanty nefungují.</p>
+    <div class="grid g3" id="sec-subs" style="margin-top:12px"></div>
+    <div class="note"><b>Pozor:</b> stačí jediná ingredience bez sekundární substance (nebo s jinou) a dominanta se neaktivuje. V záložce <b>Elixíry</b> máš u každého receptu spočítané, které dominanty jsou vůbec dosažitelné a čím přesně.</div>
+  </div>
+
+  <div class="panel">
+    <h2>Co se sčítá a co ne</h2>
+    <div class="grid g2">
+      <div>
+        <h3>Dominantu může mít každý elixír</h3>
+        <p>Dominanta není nic, čeho by ses musel držet jen jednou. <b>Nese si ji každý elixír zvlášť</b> podle toho, z čeho jsi ho namíchal &ndash; takže klidně uvař všechny tři na nigredo, nebo první na albedo a zbytek na rubedo. Efekty běží vedle sebe, každý se svým časovačem.</p>
+        <ul class="dash">
+          <li><b>Albedo</b> platí hodinu, <b>nigredo</b> a <b>rubedo</b> čtyři hodiny.</li>
+          <li>Jediné, co se nesčítá, je <b>albedo samo se sebou</b> &ndash; druhý albedový elixír už toxicitu dál nesrazí.</li>
+          <li>Proto stačí <b>jeden</b> albedový a vypít ho <b>první</b>; slevu dostane on i všechno, co po něm naliješ do sebe během té hodiny.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Žádné tajné kombinace neexistují</h3>
+        <p>Hra nemá nic jako „vypij A + B a dostaneš skrytý bonus“. Účinky elixírů se prostě <b>skládají</b> &ndash; a to je celé kouzlo.</p>
+        <ul class="dash">
+          <li>Rubedo zrychluje regeneraci vitality a <b>přičítá se</b> k regeneraci z Vlaštovky. Dohromady to léčí velmi rychle.</li>
+          <li>Nigredo dává +20 % zranění navrch k Hromu i Vlkovi.</li>
+          <li>Odolnosti (Vlha, Svlačec, Polibek, Vrba) se nepřekrývají, každá kryje jiný typ útoku.</li>
+        </ul>
+        <div class="note"><b>Trik s meditací:</b> hodina meditace pod širým nebem vyčistí veškerou toxicitu, ale <b>osmihodinové elixíry ti zůstanou</b>. Vypij první dávku, hodinu medituj a dopij zbytek &ndash; takhle se dostaneš nad rozpočet, který by ti jinak stačil.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Toxicita</h2>
+    <div class="grid g2">
+      <div>
+        <p>Každý elixír je pro zaklínače jedovatý. Množství toxinů hlídá <b>zelený ukazatel</b> na stupnici 0&ndash;100.</p>
+        <ul class="dash">
+          <li>nad <b>50</b> se začnou projevovat nepříjemné vedlejší účinky,</li>
+          <li>při <b>100</b> Geralt zemře.</li>
+        </ul>
+        <p>Prakticky to znamená <b>tři až čtyři elixíry</b> na jedno posezení. S albedem o jeden navíc &ndash; a s meditací mezi dvěma dávkami prakticky bez omezení.</p>
+        <p>Toxiny odstraníš <b>meditací</b>, nebo elixírem <b>Bílý med</b> &ndash; ten ale zároveň zruší účinky všech ostatních elixírů, takže je to nouzová brzda, ne rutina.</p>
+      </div>
+      <div>
+        <h3>Stupnice v této příručce</h3>
+        <div class="tblwrap"><table><tbody id="tox-scale"></tbody></table></div>
+        <p class="tiny muted" style="margin-top:8px">Hra k popiskům přiřazuje rozsahy bodů, proto příručka sčítá plán jako rozpětí (např. 45&ndash;60 ze 100). Dominanta albedo posune elixír o jeden řádek výš v této tabulce.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Základy &ndash; alkohol, tuk, prach</h2>
+    <p class="small muted">Čím kvalitnější základ, tím víc ingrediencí do něj rozpustíš. Recept na 5 ingrediencí nelze udělat ve slabé kořalce &ndash; potřebuješ vysoce kvalitní alkohol nebo vlastnoručně namíchaného <b>Bílého racka</b>.</p>
+    <div id="bases-box"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Co odemyká co</h2>
+    <div class="grid g3">
+      <div class="panel tight"><h3>Elixíry</h3><p class="small muted" style="margin:0">Umíš skoro od začátku hry.</p></div>
+      <div class="panel tight"><h3>Oleje</h3><p class="small muted" style="margin:0">Odemkneš talentem v <b>Inteligenci</b>.</p></div>
+      <div class="panel tight"><h3>Petardy</h3><p class="small muted" style="margin:0">Potřebuješ <b>stříbrný talent</b>, který je výslovně povoluje &ndash; tedy minimálně 15. úroveň.</p></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Praktická pravidla</h2>
+    <div class="grid g2">
+      <ul class="dash">
+        <li><b>Pij před bojem, ne v boji.</b> Elixíry se požívají jen při meditaci, dlouhé trvání je 8 herních hodin &ndash; vydrží na celou výpravu.</li>
+        <li><b>Hodina meditace vyčistí toxicitu</b>, ale osmihodinové elixíry přežijí. Dvě dávky proložené meditací zvládneš i tam, kde by ti jedna vyčerpala celý rozpočet.</li>
+        <li><b>Albedo je tvůj rozpočet.</b> Sníží o stupeň toxicitu sobě i všemu vypitému během následující hodiny &ndash; vypij ho jako první. Druhé albedo už nic nepřidá.</li>
+        <li><b>Bílý racek řeší nedostatek kořalky.</b> Vyrobíš ho ze tří levných ingrediencí a nahradí ti nejdražší alkohol.</li>
+      </ul>
+      <ul class="dash">
+        <li><b>Olej se nanáší na meč</b> a je to čistý zisk &ndash; žádná toxicita. Argentia jde jen na stříbro; na oceli meč jen otupí.</li>
+        <li><b>Sbírej všechno cestou.</b> Rostliny i mrtvoly zmizí; ingredience se neváží a i běžné bejlí se později hodí na dominanty.</li>
+        <li><b>Nejdražší minerály nekupuj zbytečně.</b> Skoro každou substanci umíš pokrýt lootem z nestvůr &ndash; viz záložka <b>Bestiář</b>.</li>
+        <li><b>Přečti každou knihu o nestvůrách.</b> Bez znalosti z knihy z mrtvoly nic nevytáhneš, i kdybys stál po kolena v ghúlech.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ELIXÍRY ============ -->
+<section class="view" id="v-elixiry">
+  <h2>Elixíry</h2>
+  <div class="filters" id="f-elixiry"></div>
+  <div class="cards" id="list-elixiry"></div>
+</section>
+
+<!-- ============ OLEJE ============ -->
+<section class="view" id="v-oleje">
+  <h2>Oleje &ndash; nátěry na meč</h2>
+  <p class="small muted" style="margin-top:-6px">Základem je tuk. Oleje nemají toxicitu, takže je můžeš používat bez omezení &ndash; jen si hlídej, na který meč je nanášíš.</p>
+  <div class="filters" id="f-oleje"></div>
+  <div class="cards" id="list-oleje"></div>
+</section>
+
+<!-- ============ PETARDY ============ -->
+<section class="view" id="v-petardy">
+  <h2>Petardy</h2>
+  <p class="small muted" style="margin-top:-6px">Základem je výbušný prach. Výrobu odemyká stříbrný talent (min. 15. úroveň). Nejlépe fungují v rychlých slotech.</p>
+  <div class="cards" id="list-petardy"></div>
+</section>
+
+<!-- ============ INGREDIENCE ============ -->
+<section class="view" id="v-ingredience">
+  <h2>Ingredience</h2>
+  <div class="filters" id="f-ingredience"></div>
+  <div class="panel tight small" style="display:flex;gap:16px;flex-wrap:wrap;align-items:center">
+    <span class="muted">Svou zásobu si můžeš zapsat &ndash; ukládá se do prohlížeče.</span>
+    <button class="btn sm" id="inv-clear">Vynulovat zásobu</button>
+    <span class="muted" id="inv-sum"></span>
+  </div>
+  <div class="tblwrap"><table id="tbl-ing"><thead></thead><tbody></tbody></table></div>
+</section>
+
+<!-- ============ BESTIÁŘ ============ -->
+<section class="view" id="v-bestiar">
+  <h2>Z čeho co získáš</h2>
+  <p class="small muted" style="margin-top:-6px">Reverzní tabulka: co ti spadne z které nestvůry a co posbíráš mezi rostlinami. Pamatuj, že z mrtvoly vytáhneš jen to, o čem sis přečetl v knize.</p>
+  <h3 style="margin-top:20px">Nestvůry</h3>
+  <div class="grid g3" id="beasts"></div>
+  <h3 style="margin-top:26px">Rostliny a houby</h3>
+  <div class="grid g3" id="plants"></div>
+  <h3 style="margin-top:26px">Minerály a zboží od alchymistů</h3>
+  <div class="grid g3" id="minerals"></div>
+</section>
+
+<!-- ============ KNIHY ============ -->
+<section class="view" id="v-knihy">
+  <h2>Knihy a svitky</h2>
+  <p class="small muted" style="margin-top:-6px">Bez knihy nic neumíš. Z rostliny utrhneš přísadu teprve tehdy, když sis o ní přečetl v herbáři; z mrtvoly vyřízneš jen to, o čem víš z bestiáře; a elixír namícháš jen podle receptu, který znáš. Minerály jsou výjimka &ndash; ty se dají koupit bez jakékoli znalosti.</p>
+  <div class="note"><b>Čti dřív, než začneš zabíjet.</b> Znalost se vztahuje na budoucí kořist &ndash; z mrtvol, které jsi nechal za sebou, už si nic nevezmeš. Herbáře i bestiáře se vyplatí kupovat co nejdřív, i když jsou drahé.</div>
+  <div class="filters" id="f-knihy"></div>
+  <div class="cards" id="list-knihy"></div>
+</section>
+
+<!-- ============ KOMBINACE ============ -->
+<section class="view" id="v-kombinace">
+  <h2>Doporučené kombinace</h2>
+  <p class="small muted" style="margin-top:-6px">Sestavy, které spolu dávají smysl. Seznam přísad je <b>nákupní seznam, ne pořadí pití</b> &ndash; konkrétní pořadí najdeš v každé kartě zvlášť. Klikni na kteroukoli položku pro detail a složení.</p>
+  <div class="note"><b>Jak funguje albedo:</b> dominanta albedo sráží toxicitu jen těm elixírům, které vypiješ <b>po ní</b> &ndash; na sebe samu nepůsobí. Proto se vyplatí uvařit na albedo ten <b>nejméně toxický dlouhý</b> elixír ze sestavy, vypít ho jako první a až pak do sebe lít ty těžké. Oleje a petardy si připrav zvlášť, do těla nejdou a toxicitu nemají.</div>
+  <div id="loadouts" style="margin-top:16px"></div>
+</section>
+
+<!-- ============ PLÁNOVAČ ============ -->
+<section class="view" id="v-planovac">
+  <h2>Plánovač výpravy</h2>
+  <p class="small muted" style="margin-top:-6px">Naklikej, co chceš uvařit. Příručka spočítá, co všechno musíš nasbírat, kolik to stojí a jaké základy si přichystat.</p>
+  <div class="grid g2">
+    <div>
+      <div class="panel">
+        <h3>Vyber recepty</h3>
+        <div class="filters" id="plan-pref" style="margin-bottom:6px"></div>
+        <div class="note small" id="plan-pref-desc" style="margin-top:0"></div>
+        <div id="plan-picker"></div>
+      </div>
+    </div>
+    <div>
+      <div class="panel" id="plan-out"></div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  Data: české znění hry <i>Zaklínač</i> (2007) &middot; ikony a herní údaje z české Zaklínač Wiki.
+  Sestaveno jako soukromá offline příručka &ndash; bez spoilerů: unikátní přísady a mutagenní elixíry z bossů jsou záměrně vynechány.
+</footer>
+
+<div class="drawer-bg" id="drawer-bg"></div>
+<aside class="drawer" id="drawer"><div class="dh" id="drawer-h"></div><div class="db" id="drawer-b"></div></aside>

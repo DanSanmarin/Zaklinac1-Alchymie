@@ -1,0 +1,2872 @@
+{
+ "ingredients": [
+  {
+   "n": "Nové koření",
+   "icon": "Substances_Allspice_root",
+   "p": "ae",
+   "s": "ni",
+   "d": "Lze pouze koupit. Kořen rostliny, kterou pěstují druidové.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Ovoce balissy",
+   "icon": "Substances_Balisse_fruit",
+   "p": "qu",
+   "s": "ru",
+   "d": "Jedlé ovoce s jemnou magickou rezonancí.",
+   "kind": "rostlinná",
+   "buy": 12,
+   "sell": 2,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Květ dvouzubce",
+   "icon": "Substances_Beggartick_blossom",
+   "p": "hy",
+   "s": "ru",
+   "d": "Jedovatá a halucinogenní bahenní rostlina. Někdy je též nazývaná trojzubec.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Ovoce berberky",
+   "icon": "Substances_Berbercane_fruit",
+   "p": "ae",
+   "s": "al",
+   "d": "Trpké a šťavnaté ovoce, často ho používají vědmy.",
+   "kind": "rostlinná",
+   "buy": 21,
+   "sell": 4,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Posed bílý",
+   "icon": "Substances_Bryonia",
+   "p": "ve",
+   "s": "ni",
+   "d": "(neboli bryonie) Lodyhy rostliny, kterou lze nalézt v pustinách.",
+   "kind": "rostlinná",
+   "buy": 21,
+   "sell": 4,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Vlaštovičník",
+   "icon": "Substances_Celandine",
+   "p": "re",
+   "s": "ni",
+   "d": "Běžná rostlina s léčivými vlastnostmi.",
+   "kind": "rostlinná",
+   "buy": 12,
+   "sell": 2,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Vraní oko",
+   "icon": "Substances_Crows_eye",
+   "p": "vi",
+   "s": "ni",
+   "d": "Kořen keře připomínajícího cypřiš.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Námel",
+   "icon": "Substances_Ergot_seeds",
+   "p": "ve",
+   "s": "ru",
+   "d": "Nelze získat. Zrní napadené halucinogenním námelem.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "nelze"
+  },
+  {
+   "n": "Feainnewedd",
+   "icon": "Substances_Feainnewedd",
+   "p": "ve",
+   "s": "ru",
+   "d": "Kvítek, který roste pouze na místě zkropeném Starší krví.",
+   "kind": "rostlinná",
+   "buy": 50,
+   "sell": 10,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Listí kozího pysku",
+   "icon": "Substances_Fools_parsley_leaves",
+   "p": "qu",
+   "s": "ru",
+   "d": "Lístky bahenní rostliny.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Okvětní plátky ginatie",
+   "icon": "Substances_Ginatia_petals",
+   "p": "ae",
+   "s": "ni",
+   "d": "Okvětní plátky běžného křoví.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Zelená plíseň",
+   "icon": "Substances_Green_mold",
+   "p": "re",
+   "s": "ru",
+   "d": "Zelená plíseň roste na zdech ve vlhkých temných místech.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Vlákno han",
+   "icon": "Substances_Han",
+   "p": "re",
+   "s": "ni",
+   "d": "Vlákno han pochází z lodyhy jedovaté polní byliny.",
+   "kind": "rostlinná",
+   "buy": 21,
+   "sell": 4,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Okvětní plátky čemeřice",
+   "icon": "Substances_Hellebore_petals",
+   "p": "ae",
+   "s": "ru",
+   "d": "Okvětní plátky běžné polní byliny.",
+   "kind": "rostlinná",
+   "buy": 9,
+   "sell": 1,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Zimolez",
+   "icon": "Substances_Honeysuckle",
+   "p": "qu",
+   "s": "al",
+   "d": "(neboli kapryfolium) Listy rostliny rostoucí na jalové půdě.",
+   "kind": "rostlinná",
+   "buy": 21,
+   "sell": 4,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Chmelové šišky",
+   "icon": "Substances_Hop_umbels",
+   "p": "vi",
+   "s": "ni",
+   "d": "Nelze získat. Šišky rostliny používané pro vaření piva.",
+   "kind": "rostlinná",
+   "buy": 21,
+   "sell": 4,
+   "mon": [],
+   "how": "nelze"
+  },
+  {
+   "n": "Kořen mandragory",
+   "icon": "Substances_Mandrake_root",
+   "p": "qu",
+   "s": "ni",
+   "d": "Velmi vzácný výskyt. Kořen jedovaté rostliny s magickými vlastnostmi.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Jmelí",
+   "icon": "Substances_Mistletoe",
+   "p": "hy",
+   "s": "ni",
+   "d": "Dar od Melitelé za jakékoli jídlo",
+   "kind": "rostlinná",
+   "buy": 21,
+   "sell": 4,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Muchomůrky",
+   "icon": "Substances_Sewants",
+   "p": "vi",
+   "s": "ru",
+   "d": "Velké šedé houby rostoucí v jeskyních.",
+   "kind": "rostlinná",
+   "buy": 9,
+   "sell": 1,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Verbena",
+   "icon": "Substances_Verbena",
+   "p": "qu",
+   "s": "al",
+   "d": "Verbena neboli sporýš, běžná kvetoucí rostlina.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Bílá myrta",
+   "icon": "Substances_White_myrtle_petals",
+   "p": "vi",
+   "s": "al",
+   "d": "Běžná polní květina s velkými bílými květy.",
+   "kind": "rostlinná",
+   "buy": 9,
+   "sell": 1,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Vlčí aloe",
+   "icon": "Substances_Wolfs_aloe",
+   "p": "hy",
+   "s": "al",
+   "d": "Vyskytuje se pouze jako pokojová rostlina",
+   "kind": "rostlinná",
+   "buy": 18,
+   "sell": 3,
+   "mon": [],
+   "how": "sběr"
+  },
+  {
+   "n": "Vlčí mor",
+   "icon": "Substances_Wolfsbane",
+   "p": "ve",
+   "s": "al",
+   "d": "Lze pouze koupit. Listy rostliny. Druidská bylina.",
+   "kind": "rostlinná",
+   "buy": 15,
+   "sell": 3,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Trny echinopsa",
+   "icon": "Substances_Echinops_rootstock",
+   "p": "vi",
+   "s": "al",
+   "d": "Získávány z těl echinopsů.",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Echinops"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Ghúlí krev",
+   "icon": "Substances_Ghoul_blood",
+   "p": "vi",
+   "s": "ni",
+   "d": "Získávána z těl ghúlů.",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Ghúl"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Ginatská kyselina",
+   "icon": "Substances_Ginatzs_acid",
+   "p": "vi",
+   "s": "ni",
+   "d": "Obsažena v tělech utopenců a ghúlů.",
+   "kind": "živočišná",
+   "buy": 30,
+   "sell": 15,
+   "mon": [
+    "Ghúl",
+    "Utopenec"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Míza archespory",
+   "icon": "Substances_Archespore_juice",
+   "p": "vi",
+   "s": "ru",
+   "d": "Získávána z těl archespor.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Archespora"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Krev bruxy",
+   "icon": "Substances_Bruxa_blood",
+   "p": "vi",
+   "s": "ru",
+   "d": "Získávána z těl brux.",
+   "kind": "živočišná",
+   "buy": 0,
+   "sell": 0,
+   "mon": [
+    "Bruxa"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Bílý ocet",
+   "icon": "Substances_White_vinegar",
+   "p": "vi",
+   "s": null,
+   "d": "Obsažen v tělech ghúlů, alghúlů, nekrofágů a graveirů.",
+   "kind": "živočišná",
+   "buy": 40,
+   "sell": 20,
+   "mon": [
+    "Alghúl",
+    "Ghúl",
+    "Nekrofág",
+    "Graveir"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Zářící prach",
+   "icon": "Substances_Shimmering_dust",
+   "p": "vi",
+   "s": null,
+   "d": "Získáván z těl polednic.",
+   "kind": "živočišná",
+   "buy": 0,
+   "sell": 0,
+   "mon": [
+    "Polednice"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Zuby zvířat",
+   "icon": "Substances_Beast_fangs",
+   "p": "vi",
+   "s": null,
+   "d": "Získávány z těl psů, vlků, barghestů, ohařů, a mutantů.",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Barghest",
+    "Pes",
+    "Vlk",
+    "Ohař",
+    "Mutant"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Mozek utopence",
+   "icon": "Substances_Drowners_brain",
+   "p": "ae",
+   "s": "al",
+   "d": "Získáván z těl utopenců.",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Utopenec"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Jazyk topivce",
+   "icon": "Substances_Drowned_deads_tongue",
+   "p": "ae",
+   "s": "ni",
+   "d": "Získáván z těl topivců.",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Topivec"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Tesáky alpy",
+   "icon": "Substances_Alp_fangs",
+   "p": "ae",
+   "s": "ru",
+   "d": "Získávány z těl alp.",
+   "kind": "živočišná",
+   "buy": 5,
+   "sell": 5,
+   "mon": [
+    "Alpa"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Spóry",
+   "icon": "Substances_Spores",
+   "p": "ae",
+   "s": null,
+   "d": "Získávány z těl echinopsů a archespor.",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Echinops",
+    "Archespora"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Pírko kuroliška",
+   "icon": "Substances_Cockatrice_feather",
+   "p": "ae",
+   "s": null,
+   "d": "Získáváno z těl kurolišků.",
+   "kind": "živočišná",
+   "buy": 0,
+   "sell": 0,
+   "mon": [
+    "Kurolišek"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Naezanské soli",
+   "icon": "Substances_Naezan_salts",
+   "p": "ae",
+   "s": null,
+   "d": "Obsaženy v tělech alp a brux.",
+   "kind": "živočišná",
+   "buy": 40,
+   "sell": 20,
+   "mon": [
+    "Alpa",
+    "Bruxa"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Blána z křídla",
+   "icon": "Substances_Wing_membrane",
+   "p": "re",
+   "s": "al",
+   "d": "Získávána z těl flederů, garkainů a wyvern.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Fleder",
+    "Garkain",
+    "Wyverna"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Kameny z Ys",
+   "icon": "Substances_Stones_of_Ys",
+   "p": "re",
+   "s": "ni",
+   "d": "Minerál používaný rybolidmi.",
+   "kind": "živočišná",
+   "buy": 0,
+   "sell": 0,
+   "mon": [
+    "Rybolidé (vodníci)"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Čelist nekrofága",
+   "icon": "Substances_Cemetaur_jaw",
+   "p": "re",
+   "s": "ni",
+   "d": "Získávána z těl nekrofágů.",
+   "kind": "živočišná",
+   "buy": 5,
+   "sell": 5,
+   "mon": [
+    "Nekrofág"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Zvířecí játra",
+   "icon": "Substances_Beast_liver",
+   "p": "re",
+   "s": "ru",
+   "d": "Získávána z těl psů, vlků, barghestů a mutantů.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Barghest",
+    "Pes",
+    "Vlk",
+    "Mutant"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Mrtvolný jed",
+   "icon": "Substances_Cadaverine",
+   "p": "re",
+   "s": null,
+   "d": "Obsažen v tělech utopenců, topivců, alghúlů, graveirů a požíraček, .",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Alghúl",
+    "Utopenec",
+    "Topivec",
+    "Graveir",
+    "Požíračka"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Prach smrti",
+   "icon": "Substances_Death_dust",
+   "p": "re",
+   "s": null,
+   "d": "Získáván z těl přeludů, půlnočnic, polednic a barghestů.",
+   "kind": "živočišná",
+   "buy": 0,
+   "sell": 0,
+   "mon": [
+    "Polednice",
+    "Půlnočnice",
+    "Přelud",
+    "Barghest"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Měchýř rybočlověka",
+   "icon": "Substances_Vodyanoi_bladder",
+   "p": "qu",
+   "s": "al",
+   "d": "Získáván z těl rybolidí.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Rybolidé (vodníci)"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Morek alghúla",
+   "icon": "Substances_Alghoul_marrow",
+   "p": "qu",
+   "s": "ni",
+   "d": "Získáván z těl alghúlů.",
+   "kind": "živočišná",
+   "buy": 3,
+   "sell": 3,
+   "mon": [
+    "Alghúl"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Sliny garkaina",
+   "icon": "Substances_Garkain_saliva",
+   "p": "qu",
+   "s": "ni",
+   "d": "Získávány z těl garkainů.",
+   "kind": "živočišná",
+   "buy": 3,
+   "sell": 3,
+   "mon": [
+    "Garkain"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Kost graveira",
+   "icon": "Substances_Graveir_bone",
+   "p": "qu",
+   "s": "ru",
+   "d": "Získávána z těl graveirů.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Graveir"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Pařát kikimory",
+   "icon": "Substances_Kikimore_claws",
+   "p": "qu",
+   "s": "ru",
+   "d": "Získáván z těl kikimor.",
+   "kind": "živočišná",
+   "buy": 3,
+   "sell": 1,
+   "mon": [
+    "Kikimora"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Lymfa zrůdnosti",
+   "icon": "Substances_Abomination_lymph",
+   "p": "qu",
+   "s": null,
+   "d": "Obsažena v tělech ghúlů, nekrofágů, flederů, garkainů, alp, brux a bloedzuigerů.",
+   "kind": "živočišná",
+   "buy": 1,
+   "sell": 1,
+   "mon": [
+    "Ghúl",
+    "Alpa",
+    "Bruxa",
+    "Fleder",
+    "Garkain",
+    "Nekrofág",
+    "Bloedzuiger"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Stínový prach",
+   "icon": "Substances_Shadow_dust",
+   "p": "qu",
+   "s": null,
+   "d": "Získáván z těl půlnočnic a požíraček.",
+   "kind": "živočišná",
+   "buy": 0,
+   "sell": 0,
+   "mon": [
+    "Půlnočnice",
+    "Požíračka"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Ektoplasma",
+   "icon": "Substances_Ectoplasm",
+   "p": "hy",
+   "s": "al",
+   "d": "Získávána z těl barghestů, přeludů, ifrítů, polednic, a půlnočnic.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Polednice",
+    "Půlnočnice",
+    "Přelud",
+    "Barghest",
+    "Ifrít"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Oko kuroliška",
+   "icon": "Substances_Cockatrice_eye",
+   "p": "hy",
+   "s": "ni",
+   "d": "Získáváno z těl kurolišků a bazilišků.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Kurolišek",
+    "Bazilišek"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Hypofýza",
+   "icon": "Substances_Pituitary_gland",
+   "p": "hy",
+   "s": "ru",
+   "d": "Získávána z těl mutantů.",
+   "kind": "živočišná",
+   "buy": 5,
+   "sell": 5,
+   "mon": [
+    "Mutant"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Albarovy krystaly",
+   "icon": "Substances_Albars_crystals",
+   "p": "hy",
+   "s": null,
+   "d": "Získávány z těl požíraček a bloedzuigerů.",
+   "kind": "živočišná",
+   "buy": 80,
+   "sell": 40,
+   "mon": [
+    "Požíračka",
+    "Bloedzuiger"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Šupiny rybolidí",
+   "icon": "Substances_Vodyanoi_scales",
+   "p": "hy",
+   "s": null,
+   "d": "Získávány z těl rybolidí.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Rybolidé (vodníci)"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Šlachy",
+   "icon": "Substances_Tendons",
+   "p": "hy",
+   "s": null,
+   "d": "Získávány z těl rybolidí a mutantů.",
+   "kind": "živočišná",
+   "buy": 5,
+   "sell": 5,
+   "mon": [
+    "Mutant",
+    "Rybolidé (vodníci)"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Mutagen",
+   "icon": "Substances_Mutagen",
+   "p": "hy",
+   "s": null,
+   "d": "Obsažen v tělech mutantů.",
+   "kind": "živočišná",
+   "buy": 5,
+   "sell": 5,
+   "mon": [
+    "Mutant"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Krev bloedzuigera",
+   "icon": "Substances_Bloedzuiger_blood_fromInventory",
+   "p": "ve",
+   "s": "al",
+   "d": "Získávána z těl bloedzuigerů.",
+   "kind": "živočišná",
+   "buy": 2,
+   "sell": 2,
+   "mon": [
+    "Bloedzuiger"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Jedové váčky",
+   "icon": "Substances_Venom_glands",
+   "p": "ve",
+   "s": "ni",
+   "d": "Získávány z těl kikimořích bojovnic, wyvern, skolopendromorfů, a bazilišků.",
+   "kind": "živočišná",
+   "buy": 3,
+   "sell": 3,
+   "mon": [
+    "Kikimoří bojovnice",
+    "Wyverna",
+    "Bazilišek",
+    "Skolopendromorf"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Zuby požíračky",
+   "icon": "Substances_Devourer_teeth",
+   "p": "ve",
+   "s": "ru",
+   "d": "Získávány z těl požíraček.",
+   "kind": "živočišná",
+   "buy": 5,
+   "sell": 5,
+   "mon": [
+    "Požíračka"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Pyrit",
+   "icon": "Substances_Pyrite",
+   "p": "ve",
+   "s": "ru",
+   "d": "Kámen získávaný z těl ifrítů.",
+   "kind": "živočišná",
+   "buy": 60,
+   "sell": 30,
+   "mon": [
+    "Ifrít"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Dýchací trubice",
+   "icon": "Substances_Tracheae",
+   "p": "ve",
+   "s": null,
+   "d": "Získávána z těl kikimor a skolopendromorfů.",
+   "kind": "živočišná",
+   "buy": 3,
+   "sell": 3,
+   "mon": [
+    "Kikimora",
+    "Skolopendromorf"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Toxin",
+   "icon": "Substances_Toxin",
+   "p": "ve",
+   "s": null,
+   "d": "Získáván z těl kikimor, wyvern, skolopendromorfů, bazilišků a kurolišků.",
+   "kind": "živočišná",
+   "buy": 3,
+   "sell": 3,
+   "mon": [
+    "Kikimora",
+    "Wyverna",
+    "Kurolišek",
+    "Bazilišek",
+    "Skolopendromorf"
+   ],
+   "how": "loot"
+  },
+  {
+   "n": "Calcium equum",
+   "icon": "Substances_Calcium_equum",
+   "p": "vi",
+   "s": "ru",
+   "d": "Oblíbený minerál zvaný též koňské vápno.",
+   "kind": "minerální",
+   "buy": 30,
+   "sell": 15,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Roztok rtuti",
+   "icon": "Substances_Quicksilver_solution",
+   "p": "ae",
+   "s": "ni",
+   "d": "Alchymistická ingredience konzistence a barvy rtuti.",
+   "kind": "minerální",
+   "buy": 50,
+   "sell": 25,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Prášková perla",
+   "icon": "Substances_Powdered_pearl",
+   "p": "ae",
+   "s": "ru",
+   "d": "Rozdrcená bílá perla.",
+   "kind": "minerální",
+   "buy": 40,
+   "sell": 20,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Měsíční úlomky",
+   "icon": "Substances_Lunar_shards",
+   "p": "re",
+   "s": "ru",
+   "d": "Hrudky stříbřitého minerálu, který ve tmě světélkuje.",
+   "kind": "minerální",
+   "buy": 40,
+   "sell": 20,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Vinný kámen",
+   "icon": "Substances_Wine_stone",
+   "p": "re",
+   "s": null,
+   "d": "Substance vyráběná z vína.",
+   "kind": "minerální",
+   "buy": 30,
+   "sell": 15,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Knížecí voda",
+   "icon": "Substances_Ducal_water",
+   "p": "qu",
+   "s": "ni",
+   "d": "Silné alchymistického rozpouštědlo.",
+   "kind": "minerální",
+   "buy": 50,
+   "sell": 25,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Optima mater",
+   "icon": "Substances_Optima_mater",
+   "p": "qu",
+   "s": "ru",
+   "d": "Alchymisty velmi ceněný katalyzátor.",
+   "kind": "minerální",
+   "buy": 70,
+   "sell": 35,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Síra",
+   "icon": "Substances_Sulfur",
+   "p": "qu",
+   "s": null,
+   "d": "Žlutá alchymistická substance.",
+   "kind": "minerální",
+   "buy": 60,
+   "sell": 30,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Pátá esence",
+   "icon": "Substances_The_fifth_essence",
+   "p": "hy",
+   "s": null,
+   "d": "Vzácný alchymistický destilát.",
+   "kind": "minerální",
+   "buy": 60,
+   "sell": 30,
+   "mon": [],
+   "how": "koupit"
+  },
+  {
+   "n": "Fosfor",
+   "icon": "Substances_Phosphorus",
+   "p": "ve",
+   "s": null,
+   "d": "Hořlavá alchymistická substance.",
+   "kind": "minerální",
+   "buy": 60,
+   "sell": 30,
+   "mon": [],
+   "how": "koupit"
+  }
+ ],
+ "potions": [
+  {
+   "n": "Vlaštovka",
+   "icon": "Potion_Swallow",
+   "f": [
+    "vi",
+    "re",
+    "re",
+    "ae"
+   ],
+   "e": "Značně urychluje regeneraci zdraví.",
+   "dur": "Krátká / 2 hodiny",
+   "tox": "Střední"
+  },
+  {
+   "n": "Puštík",
+   "icon": "Potion_Tawny_Owl",
+   "f": [
+    "vi",
+    "ae",
+    "ae"
+   ],
+   "e": "Značně urychluje regeneraci energie.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Střední"
+  },
+  {
+   "n": "Kočka",
+   "icon": "Potion_Cat",
+   "f": [
+    "re",
+    "qu",
+    "qu"
+   ],
+   "e": "Umožňuje zaklínači vidět v naprosté tmě.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Nízká"
+  },
+  {
+   "n": "Lektvar Raffarda Bílého",
+   "icon": "Potion_White_Raffards",
+   "f": [
+    "vi",
+    "re",
+    "hy",
+    "hy"
+   ],
+   "e": "Okamžitě obnovuje část ztracených životů.",
+   "dur": "Okamžitá",
+   "tox": "Vysoká"
+  },
+  {
+   "n": "Bílý med",
+   "icon": "Potion_White_Honey",
+   "f": [
+    "vi",
+    "re",
+    "ae"
+   ],
+   "e": "Zbavuje tělo veškeré toxicity, zároveň ruší i všechny účinky elixírů.",
+   "dur": "Okamžitá",
+   "tox": "Žádná"
+  },
+  {
+   "n": "Ženské slzy",
+   "icon": "Potion_Wives_Tears",
+   "f": [
+    "re",
+    "ae",
+    "qu"
+   ],
+   "e": "Neutralizují účinky opilosti.",
+   "dur": "Okamžitá",
+   "tox": "Nízká"
+  },
+  {
+   "n": "Bílý racek",
+   "icon": "Potion_White_Gull",
+   "f": [
+    "vi",
+    "vi",
+    "re"
+   ],
+   "e": "Slabý zaklínačský halucinogen, určený jako základ (= alkohol) pro výrobu jiných elixírů.",
+   "dur": "Dlouhá",
+   "tox": "Střední"
+  },
+  {
+   "n": "Petriho filtr",
+   "icon": "Potion_Petris_Philter",
+   "f": [
+    "re",
+    "re",
+    "qu",
+    "hy",
+    "ve"
+   ],
+   "e": "Zvyšuje intenzitu všech znamení o 50 %.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Velmi vysoká"
+  },
+  {
+   "n": "Mariborský les",
+   "icon": "Potion_Maribor_Forest",
+   "f": [
+    "re",
+    "re",
+    "ae",
+    "qu"
+   ],
+   "e": "Zvyšuje maximum energie o 50 %.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Střední"
+  },
+  {
+   "n": "Úplněk",
+   "icon": "Potion_Full_Moon",
+   "f": [
+    "qu",
+    "hy",
+    "hy",
+    "ve",
+    "ve"
+   ],
+   "e": "Zdvojnásobuje maximum životů.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Velmi vysoká"
+  },
+  {
+   "n": "Hrom",
+   "icon": "Potion_Thunderbolt",
+   "f": [
+    "vi",
+    "re",
+    "hy",
+    "ve",
+    "ve"
+   ],
+   "e": "Zvyšuje způsobovaná zranění o 100 %, zároveň ale zhoršuje možnost úniku a krytí o 50 %.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Vysoká"
+  },
+  {
+   "n": "Vlk",
+   "icon": "Potion_Wolf",
+   "f": [
+    "vi",
+    "vi",
+    "hy",
+    "hy",
+    "ve"
+   ],
+   "e": "Zvyšuje šance na přesný zásah o 50 %.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Střední"
+  },
+  {
+   "n": "Blizzard",
+   "icon": "Potion_Blizzard",
+   "f": [
+    "vi",
+    "vi",
+    "re",
+    "re"
+   ],
+   "e": "Zlepšuje reflexy a reakce, schopnost úniku a krytí zvýšena o 50 %.",
+   "dur": "Krátká / 20 minut",
+   "tox": "Střední"
+  },
+  {
+   "n": "Rosomák",
+   "icon": "Potion_Wolverine",
+   "f": [
+    "ae",
+    "ae",
+    "qu",
+    "hy",
+    "ve"
+   ],
+   "e": "Pokud klesne zaklínačova vitalita pod polovinu, zvyšuje způsobovaná zranění o 50 %.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Střední"
+  },
+  {
+   "n": "Ťuhýk",
+   "icon": "Potion_Shrike",
+   "f": [
+    "re",
+    "qu",
+    "hy",
+    "ve",
+    "ve"
+   ],
+   "e": "Způsobuje bolest protivníkům, kteří zaklínače zraní.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Vysoká"
+  },
+  {
+   "n": "Černá krev",
+   "icon": "Potion_Black_Blood",
+   "f": [
+    "vi",
+    "vi",
+    "vi",
+    "re",
+    "ae"
+   ],
+   "e": "Promění zaklínačovu krev ve smrtelný jed pro upíry.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Vysoká"
+  },
+  {
+   "n": "Vlha",
+   "icon": "Potion_Golden_Oriole",
+   "f": [
+    "vi",
+    "vi",
+    "ae",
+    "ae"
+   ],
+   "e": "Zvyšuje odolnost vůči jedům o 70 %, neutralizuje účinky otravy.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Střední"
+  },
+  {
+   "n": "Polibek",
+   "icon": "Potion_Kiss",
+   "f": [
+    "vi",
+    "vi",
+    "ve"
+   ],
+   "e": "Zvyšuje odolnost vůči krvácení o 70 %, zastavuje probíhající krvácení.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Střední"
+  },
+  {
+   "n": "Vrba",
+   "icon": "Potion_Willow",
+   "f": [
+    "ae",
+    "ae",
+    "qu"
+   ],
+   "e": "Činí zaklínače 100% imunním vůči efektům omráčení a povalení.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Vysoká"
+  },
+  {
+   "n": "Svlačec",
+   "icon": "Potion_Bindweed",
+   "f": [
+    "ae",
+    "qu",
+    "ve"
+   ],
+   "e": "Zvyšuje odolnost vůči kyselinovým jedům o 70 %.",
+   "dur": "Dlouhá / 8 hodin",
+   "tox": "Střední"
+  },
+  {
+   "n": "Odvar de Vries",
+   "icon": "Potion_Devries_Extract",
+   "f": [
+    "re",
+    "ae",
+    "qu",
+    "qu",
+    "hy"
+   ],
+   "e": "Umožňuje zaklínači vidět i neviditelné bytosti nebo bytosti skryté jeho zraku (např. hluboko v zemi).",
+   "dur": "Krátká / 1 hodina",
+   "tox": "Střední"
+  }
+ ],
+ "oils": [
+  {
+   "n": "Olej proti přeludům",
+   "icon": "Oil_Specter_Oil",
+   "f": [
+    "vi",
+    "re",
+    "ae"
+   ],
+   "e": "O 100% zvyšuje zranění způsobovaná přeludům (např. barghestům, polednicím, atd.)"
+  },
+  {
+   "n": "Olej proti nekrofágům",
+   "icon": "Oil_Necrophage_Oil",
+   "f": [
+    "vi",
+    "vi",
+    "ae"
+   ],
+   "e": "O 100% zvyšuje zranění způsobovaná nekrofágům (např. ghúlům a utopencům)"
+  },
+  {
+   "n": "Olej proti ornitosaurům",
+   "icon": "Oil_Ornithosaur_Oil",
+   "f": [
+    "vi",
+    "qu",
+    "re",
+    "hy"
+   ],
+   "e": "O 100% zvyšuje zranění způsobovaná ornitosaurům (např. wyvernám nebo kuroliškům)"
+  },
+  {
+   "n": "Olej proti insektoidům",
+   "icon": "Oil_Insectoid_Oil",
+   "f": [
+    "re",
+    "qu",
+    "ae",
+    "ve"
+   ],
+   "e": "O 100% zvyšuje zranění způsobovaná insectoidům (kikimory, skolopendromorfové, atd.)"
+  },
+  {
+   "n": "Olej proti upírům",
+   "icon": "Oil_Vampire_Oil",
+   "f": [
+    "vi",
+    "ve",
+    "hy",
+    "qu",
+    "qu"
+   ],
+   "e": "O 100% zvyšuje zranění způsobovaná všem druhům upírů"
+  },
+  {
+   "n": "Jed oběšencův",
+   "icon": "Oil_Hanged_Mans_Venom",
+   "f": [
+    "vi",
+    "ae",
+    "re",
+    "hy",
+    "ve"
+   ],
+   "e": "Silný jed, způsobuje otravu; vhodný zejména proti lidem"
+  },
+  {
+   "n": "Crinfridský olej",
+   "icon": "Oil_Crinfrid_Oil",
+   "f": [
+    "vi",
+    "ae",
+    "hy",
+    "ve",
+    "ve"
+   ],
+   "e": "Způsobuje silnou bolest; vhodný zejména proti lidem"
+  },
+  {
+   "n": "Hnědý olej",
+   "icon": "Oil_Brown_Oil",
+   "f": [
+    "re",
+    "ae",
+    "qu",
+    "ve",
+    "ve"
+   ],
+   "e": "Snižuje srážlivost krve; způsobuje krvácení, vhodný zejména proti lidem"
+  },
+  {
+   "n": "Argentia",
+   "icon": "Oil_Argentia",
+   "f": [
+    "qu",
+    "qu",
+    "hy",
+    "hy",
+    "re"
+   ],
+   "e": "Zvyšuje o 60% efektivitu stříbrného meče, ocelový pouze otupuje"
+  }
+ ],
+ "bombs": [
+  {
+   "n": "Král a královna",
+   "icon": "Bomb_King_and_queen",
+   "f": [
+    "re",
+    "re",
+    "ae"
+   ],
+   "e": "Vyvolá pocit strachu ve všech bytostech v okolí, pokud jsou jsou schopny strach pocítit"
+  },
+  {
+   "n": "Ďáblova pecka",
+   "icon": "Bomb_Devils_puffball",
+   "f": [
+    "re",
+    "ae",
+    "ae",
+    "hy"
+   ],
+   "e": "Otráví všechny bytosti v okolí, pokud nejsou proti efektům otravy odolné, Geralt je vůči efektům imnunní"
+  },
+  {
+   "n": "Zerrikánské Slunce",
+   "icon": "Bomb_Zerrikanian_sun",
+   "f": [
+    "ae",
+    "qu",
+    "hy",
+    "ve"
+   ],
+   "e": "Oslepí všechny bytosti v okolí, pokud nejsou proti efektu oslepení odolné, Geralt je vůči účinkům imnunní"
+  },
+  {
+   "n": "Samum",
+   "icon": "Bomb_Samum",
+   "f": [
+    "re",
+    "re",
+    "ae",
+    "ve"
+   ],
+   "e": "Omráčí všechny bytosti v okolí, pokud nejsou proti efektům omráčení odolné"
+  },
+  {
+   "n": "Dračí sen",
+   "icon": "Bomb_Dragons_dream",
+   "f": [
+    "re",
+    "qu",
+    "hy",
+    "hy",
+    "ve"
+   ],
+   "e": "Uvolní mrak výbušného plynu, který lze snadno zapálit a zvýšit tak účinek znamení Igni"
+  }
+ ],
+ "bases": [
+  {
+   "n": "Temerská žitná",
+   "icon": "Alcohol_Temerian_Rye",
+   "d": "Alkohol destilovaný z žita, pijáky nazývaný tekutý chleba",
+   "tier": "Slabý alkohol",
+   "slots": 3,
+   "buy": 20,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Místní pepřovka",
+   "icon": "Alcohol_Local_Pepper_Vodka",
+   "d": "Hrdlo spalující vodka s pepřem",
+   "tier": "Slabý alkohol",
+   "slots": 3,
+   "buy": 20,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Nilfgaardská citrónovka",
+   "icon": "Alcohol_Nilfgaardian_Lemon",
+   "d": "Vodka oblíbená v Nilfgaardském císařství, na severu se používá na přípitky proti Černým",
+   "tier": "Slabý alkohol",
+   "slots": 3,
+   "buy": 20,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Redanská bylinná",
+   "icon": "Alcohol_Redanian_Herbal",
+   "d": "Vodka z Redanie, na počest krále Radovida zvaná nelítostná",
+   "tier": "Slabý alkohol",
+   "slots": 3,
+   "buy": 20,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Vojácký Bimber",
+   "icon": "Alcohol_Soldiers_Hooch",
+   "d": "Samohonka vydávaná vojákům před bitvou",
+   "tier": "Slabý alkohol",
+   "slots": 3,
+   "buy": 20,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Temerský špiritus",
+   "icon": "Alcohol_Temerian_Spirit",
+   "d": "Oblíbené pití wyzimské městské stráže",
+   "tier": "Kvalitní alkohol",
+   "slots": 4,
+   "buy": 30,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Trpasličí špiritus",
+   "icon": "Alcohol_Dwarven_Spirit",
+   "d": "Špiritus z Mahakamu",
+   "tier": "Kvalitní alkohol",
+   "slots": 4,
+   "buy": 30,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Zerrikánský špiritus",
+   "icon": "Alcohol_Zerrikanian_Spirit",
+   "d": "Destilát označovaný jako dračí krev",
+   "tier": "Kvalitní alkohol",
+   "slots": 4,
+   "buy": 30,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Višňovka s lihem",
+   "icon": "Alcohol_Cherry_Cordial_Spirit",
+   "d": "Posílená višňovka, oblíbená mezi milovníky silných truňků",
+   "tier": "Kvalitní alkohol",
+   "slots": 4,
+   "buy": 30,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Slivovice",
+   "icon": "Alcohol_Plum_Cordial",
+   "d": "Specialita temerských hospodyň",
+   "tier": "Kvalitní alkohol",
+   "slots": 4,
+   "buy": 30,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Kořalka z mandragory",
+   "icon": "Alcohol_Mandrake_Cordial",
+   "d": "Destilát z kořene mandragory",
+   "tier": "Vysoce kvalitní alkohol",
+   "slots": 5,
+   "buy": 50,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Špiritus s wyverní krví",
+   "icon": "Alcohol_Wyvern_Blood_Spirit",
+   "d": "Špiritus destilovaný druidy",
+   "tier": "Vysoce kvalitní alkohol",
+   "slots": 5,
+   "buy": 50,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Pelyňkovka",
+   "icon": "Alcohol_Wormwood_Spirit",
+   "d": "Halucinogenní destilát",
+   "tier": "Vysoce kvalitní alkohol",
+   "slots": 5,
+   "buy": 50,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Alkahest",
+   "icon": "Alcohol_Alcohest",
+   "d": "Velmi čistý destilát s mírnou magickou silou",
+   "tier": "Vysoce kvalitní alkohol",
+   "slots": 5,
+   "buy": 50,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Azoth",
+   "icon": "Alcohol_Azoth",
+   "d": "Velmi čistý destilát používaný v alchymii",
+   "tier": "Vysoce kvalitní alkohol",
+   "slots": 5,
+   "buy": 50,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Bílý racek",
+   "icon": "Potion_White_Gull",
+   "d": "Zaklínačský halucinogen vlastní výroby; slouží jako alkohol nejvyšší kvality.",
+   "tier": "Vlastní výroba",
+   "slots": 5,
+   "buy": null,
+   "cat": "alkohol"
+  },
+  {
+   "n": "Husí sádlo",
+   "icon": "Base_Goose_Fat",
+   "d": "",
+   "tier": "Tuk",
+   "slots": 4,
+   "buy": 20,
+   "cat": "tuk"
+  },
+  {
+   "n": "Lůj",
+   "icon": "Base_Suet",
+   "d": "",
+   "tier": "Tuk",
+   "slots": 4,
+   "buy": 20,
+   "cat": "tuk"
+  },
+  {
+   "n": "Psí sádlo",
+   "icon": "Base_Dog_Tallow",
+   "d": "",
+   "tier": "Tuk",
+   "slots": 5,
+   "buy": 10,
+   "cat": "tuk"
+  },
+  {
+   "n": "Medvědí sádlo",
+   "icon": "Base_Bear_fat",
+   "d": "",
+   "tier": "Tuk",
+   "slots": 5,
+   "buy": 40,
+   "cat": "tuk"
+  },
+  {
+   "n": "Alchymistická pasta",
+   "icon": "Base_Alchemical_Paste",
+   "d": "",
+   "tier": "Tuk",
+   "slots": 5,
+   "buy": 70,
+   "cat": "tuk"
+  },
+  {
+   "n": "Salnytr",
+   "icon": "Base_Saltpeter",
+   "d": "",
+   "tier": "Prach",
+   "slots": 4,
+   "buy": 10,
+   "cat": "prach"
+  },
+  {
+   "n": "Černý prášek",
+   "icon": "Base_Stammelfords_dust",
+   "d": "",
+   "tier": "Prach",
+   "slots": 4,
+   "buy": 20,
+   "cat": "prach"
+  },
+  {
+   "n": "Zerrikánská směs",
+   "icon": "Base_Zerrikanian_mix",
+   "d": "",
+   "tier": "Prach",
+   "slots": 5,
+   "buy": 40,
+   "cat": "prach"
+  },
+  {
+   "n": "Alchymistický prášek",
+   "icon": "Base_Alchemists_powder",
+   "d": "",
+   "tier": "Prach",
+   "slots": 5,
+   "buy": 70,
+   "cat": "prach"
+  }
+ ],
+ "beasts": {
+  "Alghúl": [
+   "Bílý ocet",
+   "Morek alghúla",
+   "Mrtvolný jed"
+  ],
+  "Alpa": [
+   "Lymfa zrůdnosti",
+   "Naezanské soli",
+   "Tesáky alpy"
+  ],
+  "Archespora": [
+   "Míza archespory",
+   "Spóry"
+  ],
+  "Barghest": [
+   "Ektoplasma",
+   "Prach smrti",
+   "Zuby zvířat",
+   "Zvířecí játra"
+  ],
+  "Bazilišek": [
+   "Jedové váčky",
+   "Oko kuroliška",
+   "Toxin"
+  ],
+  "Bloedzuiger": [
+   "Albarovy krystaly",
+   "Krev bloedzuigera",
+   "Lymfa zrůdnosti"
+  ],
+  "Bruxa": [
+   "Krev bruxy",
+   "Lymfa zrůdnosti",
+   "Naezanské soli"
+  ],
+  "Echinops": [
+   "Spóry",
+   "Trny echinopsa"
+  ],
+  "Fleder": [
+   "Blána z křídla",
+   "Lymfa zrůdnosti"
+  ],
+  "Garkain": [
+   "Blána z křídla",
+   "Lymfa zrůdnosti",
+   "Sliny garkaina"
+  ],
+  "Ghúl": [
+   "Bílý ocet",
+   "Ghúlí krev",
+   "Ginatská kyselina",
+   "Lymfa zrůdnosti"
+  ],
+  "Graveir": [
+   "Bílý ocet",
+   "Kost graveira",
+   "Mrtvolný jed"
+  ],
+  "Ifrít": [
+   "Ektoplasma",
+   "Pyrit"
+  ],
+  "Kikimora": [
+   "Dýchací trubice",
+   "Pařát kikimory",
+   "Toxin"
+  ],
+  "Kikimoří bojovnice": [
+   "Jedové váčky"
+  ],
+  "Kurolišek": [
+   "Oko kuroliška",
+   "Pírko kuroliška",
+   "Toxin"
+  ],
+  "Mutant": [
+   "Hypofýza",
+   "Mutagen",
+   "Zuby zvířat",
+   "Zvířecí játra",
+   "Šlachy"
+  ],
+  "Nekrofág": [
+   "Bílý ocet",
+   "Lymfa zrůdnosti",
+   "Čelist nekrofága"
+  ],
+  "Ohař": [
+   "Zuby zvířat"
+  ],
+  "Pes": [
+   "Zuby zvířat",
+   "Zvířecí játra"
+  ],
+  "Polednice": [
+   "Ektoplasma",
+   "Prach smrti",
+   "Zářící prach"
+  ],
+  "Požíračka": [
+   "Albarovy krystaly",
+   "Mrtvolný jed",
+   "Stínový prach",
+   "Zuby požíračky"
+  ],
+  "Přelud": [
+   "Ektoplasma",
+   "Prach smrti"
+  ],
+  "Půlnočnice": [
+   "Ektoplasma",
+   "Prach smrti",
+   "Stínový prach"
+  ],
+  "Rybolidé (vodníci)": [
+   "Kameny z Ys",
+   "Měchýř rybočlověka",
+   "Šlachy",
+   "Šupiny rybolidí"
+  ],
+  "Skolopendromorf": [
+   "Dýchací trubice",
+   "Jedové váčky",
+   "Toxin"
+  ],
+  "Topivec": [
+   "Jazyk topivce",
+   "Mrtvolný jed"
+  ],
+  "Utopenec": [
+   "Ginatská kyselina",
+   "Mozek utopence",
+   "Mrtvolný jed"
+  ],
+  "Vlk": [
+   "Zuby zvířat",
+   "Zvířecí játra"
+  ],
+  "Wyverna": [
+   "Blána z křídla",
+   "Jedové váčky",
+   "Toxin"
+  ]
+ },
+ "books": [
+  {
+   "n": "Bahenní stvůry",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Bestiář popisuje bahenní stvůry: utopcence, topivce a bloedzuigery. Obsahuje informace o boji s těmito stvůrami a také poskytuje seznam alchymistických ingrediencí, které z nich lze získat.",
+   "buy": 200,
+   "sell": 40,
+   "mon": [
+    "Bloedzuiger",
+    "Topivec",
+    "Utopenci"
+   ],
+   "ing": [
+    "Albarovy krystaly",
+    "Ginatská kyselina",
+    "Jazyk topivce",
+    "Krev bloedzuigera",
+    "Mozek utopence"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Kalkstein",
+    "Abigail",
+    "Léčitelka"
+   ]
+  },
+  {
+   "n": "Dračí sen (svitek)",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Svitek obsahuje návod na výrobu petardy: Dračí sen: po detonaci vypouští oblak výbušného kouře",
+   "buy": 200,
+   "sell": 40,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Dračí sen"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Kalkstein",
+    "Poustevník",
+    "Hostinský"
+   ]
+  },
+  {
+   "n": "Druidský herbář",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Knížka probírá různé používané druidy: čemeřici, nové koření, vlčí aloi, verbenu, jmelí a ginatii. Umožňuje také využití těchto rostlin jako alchymistické ingredience.",
+   "buy": 600,
+   "sell": 120,
+   "mon": [],
+   "ing": [
+    "Jmelí",
+    "Nové koření",
+    "Okvětní plátky čemeřice",
+    "Okvětní plátky ginatie",
+    "Verbena",
+    "Vlčí aloe"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Knihkupec",
+    "Poustevník",
+    "Druidi"
+   ]
+  },
+  {
+   "n": "Dvojitý Alzurův kříž",
+   "icon": "Books_Generic_other",
+   "kind": "Příručka",
+   "d": "Cenzurovaná verze slavné knihy mága Alzura, obsahující zakletí pro tvorbu obrovských příšer.",
+   "buy": 200,
+   "sell": 40,
+   "mon": [
+    "Kostihlav",
+    "chiméra",
+    "kostěj"
+   ],
+   "ing": [
+    "Zvířecí játra",
+    "Zuby zvířat",
+    "Šlachy"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein"
+   ]
+  },
+  {
+   "n": "Kniha hromu",
+   "icon": "Scrolls_generic_icon_blue",
+   "kind": "Svitek s recepty",
+   "d": "Hrom: zvyšuje útok, ale oslabuje obranu Úplněk: zvyšuje maximální zdraví Ťuhýk: pokud nepřátelé útočí na osobu chráněnou lektvarem, utrpí zranění Olej proti upírům: zvyšuje zranění způsobované upírům",
+   "buy": 800,
+   "sell": 160,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Hrom",
+    "Ťuhýk",
+    "Úplněk",
+    "Olej proti upírům"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein"
+   ]
+  },
+  {
+   "n": "Kniha polibku",
+   "icon": "Scrolls_generic_icon_blue",
+   "kind": "Svitek s recepty",
+   "d": "Dokumenty obsahující recepty na elixíry: Polibek: zvyšuje odolnost vůči krvácení a okamžitě krvácení zastavuje Olej proti insektoidům: zvyšuje zranění způsobované insektoidům. Argentia: zvyšuje zranění způsobované tvorum citlivým na stříbro",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Polibek",
+    "Olej proti insektoidům",
+    "Argentia"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník",
+    "Hostinský"
+   ]
+  },
+  {
+   "n": "Kniha puštíka",
+   "icon": "Scrolls_generic_icon_blue",
+   "kind": "Svitek s recepty",
+   "d": "Dokumenty obsahující recepty na elixíry: Puštík: urychluje regeneraci energie Svlačec: dodává odolnost vůči kyselině Bílý med: neutralizuje jed a působení jiných elixírů",
+   "buy": 200,
+   "sell": 40,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Puštík",
+    "Svlačec",
+    "Bílý med"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Kniha rosomáka",
+   "icon": "Scrolls_generic_icon_blue",
+   "kind": "Svitek s recepty",
+   "d": "Dokumenty obsahující recepty na elixíry: Rosomák: zvyšuje působené zranění, pokud zaklínačovom zdraví klesne pod polovinu Vrba: zvyšuje odolnost vůči omráčení a sražení k zemi Olej proti ornitosaurům: zvyšuje zranění způsobované ornitosaurům",
+   "buy": 600,
+   "sell": 120,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Rosomák",
+    "Vrba",
+    "Olej proti ornitosaurům"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Kniha strachu a nenávisti, svazek I",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Bestiář popisuje mrchožrouty: ghúla a graveira. Obsahuje informace o boji s těmito a také poskytuje seznam alchymistických ingrediencí, které z nich lze získat.",
+   "buy": 250,
+   "sell": 50,
+   "mon": [
+    "Ghúl",
+    "Graveir"
+   ],
+   "ing": [
+    "Bílý ocet",
+    "Ghúlí krev",
+    "Kost graveira",
+    "Lymfa zrůdnosti",
+    "Mrtvolný jed"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista"
+   ]
+  },
+  {
+   "n": "Kniha strachu a nenávisti, svazek II",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Svazek poskytuje informace o alghůlech, nekrofázích a požíračkách. Pojednává o metodách boje s nestvůrami a alchymistických přísadách, které z nich lze získat.",
+   "buy": 500,
+   "sell": 100,
+   "mon": [
+    "Alghúl",
+    "Nekrofág",
+    "Požíračka"
+   ],
+   "ing": [
+    "Albarovy krystaly",
+    "Bílý ocet",
+    "Čelist nekrofága",
+    "Lymfa zrůdnosti",
+    "Morek alghúla",
+    "Mrtvolný jed",
+    "Stínový prach",
+    "Zuby požíračky"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Kalkstein"
+   ]
+  },
+  {
+   "n": "Kniha vlaštovky",
+   "icon": "Scrolls_generic_icon_blue",
+   "kind": "Svitek s recepty",
+   "d": "Bílý med: halucinogen a velmi dobrý základ na elixíry Vlaštovka: urychluje regeneraci života Kočka: umožňuje vidění v naprosté tmě Blizzard: zlepšuje reflexi v boji Olej proti nekrofágům: nátěr na zbraň, zvyšuje zranění způsobené mrchožroutům",
+   "buy": 100,
+   "sell": 20,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Bílý med",
+    "Blizzard",
+    "Kočka",
+    "Olej proti nekrofágům",
+    "Vlaštovka"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Druidi"
+   ]
+  },
+  {
+   "n": "Kniha vlhy",
+   "icon": "Scrolls_generic_icon_blue",
+   "kind": "Svitek s recepty",
+   "d": "Dokumenty obsahující recepty na elixíry: Vlha: zvyšuje odolnost vůči jedu a odstraňuje otravu Vlk: zvyšuje šanci na kritický zásah Černá krev: zabíjí stvůry, které koušou nebo sají krev",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Vlha",
+    "Vlk",
+    "Černá krev"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Kniha zvířat",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Knížka se soustředí na popis psů a vlků. Obsahuje informace o boji s těmito a také poskytuje seznam alchymistických ingrediencí, které z nich lze získat.",
+   "buy": 100,
+   "sell": 20,
+   "mon": [
+    "Pes",
+    "Vlk"
+   ],
+   "ing": [
+    "Zuby zvířat",
+    "Zvířecí játra"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Abigail"
+   ]
+  },
+  {
+   "n": "Malá kniha minerálů",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Kniha popisuje základní minerální složky používané v alchymii, včetně síry, Ginatské kyseliny, vinného kamene, Naezanských solí, Calcium equum a fosforu. Pojednává také o alchymistických látkách, které se v těchto minerálech nacházejí.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [
+    "Calcium equum",
+    "Fosfor",
+    "Ginatská kyselina",
+    "Naezanské soli",
+    "Síra",
+    "Vinný kámen"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "O bahenních rostlinách",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Kniha popisuje vlaštovičník, květ dvouzubce a listí kozího pysku a způsoby získávání alchymistických ingrediencí z těchto rostlin.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [
+    "Květ dvouzubce",
+    "Vlaštovičník",
+    "Listí kozího pysku"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec"
+   ]
+  },
+  {
+   "n": "O barghestech",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Text obsahuje výpovědí lidí, kteří na vlastní oči viděli útoky barghestů. Výpovědí ogsahují mnoho užitečných informací.",
+   "buy": 50,
+   "sell": 10,
+   "mon": [
+    "Barghest"
+   ],
+   "ing": [
+    "Zuby zvířat",
+    "Prach smrti",
+    "Ektoplasma"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Abigail"
+   ]
+  },
+  {
+   "n": "O kletbách a prokletích",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Pojednání se zabývá echinopsy a archesporami. Pojednává také o případech lykantropie a kouzlech strigy.",
+   "buy": 500,
+   "sell": 100,
+   "mon": [
+    "Archespory",
+    "Echinops"
+   ],
+   "ing": [
+    "Míza archespory",
+    "Spóry",
+    "Trny echinopsa"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": true
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Hostinský"
+   ]
+  },
+  {
+   "n": "O podzemních rostlinách",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Knížka popisuje houby a zelenou plíseň a umožňuje získávání alchymistických surovin z těchto rostlin.",
+   "buy": 300,
+   "sell": 60,
+   "mon": [],
+   "ing": [
+    "Muchomůrky",
+    "Zelená plíseň"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Bylinkář"
+   ]
+  },
+  {
+   "n": "O polních rostlinách",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Knížka popisuje rostliny: bílou myrtu, čemeřici, vlaštovičnik, balissu, vraní oko, berberku a houby. Umožňuje získávat alchymistických surovin z těchto rostlin.",
+   "buy": 200,
+   "sell": 40,
+   "mon": [],
+   "ing": [
+    "Bílá myrta",
+    "Muchomůrky",
+    "Okvětní plátky čemeřice",
+    "Ovoce balissy",
+    "Ovoce berberky",
+    "Vlaštovičník",
+    "Vraní oko"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Bylinkář",
+    "Abigail"
+   ]
+  },
+  {
+   "n": "O rituálních rostlinách",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Kniha umožňuje rozpoznat kořen koření, semena námelu, vlčí mor, mandragoru, han, chmel a jmelí. Popisuje také metody, jak z nich získat alchymistické látky.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [
+    "Chmelové šišky",
+    "Jmelí",
+    "Kořen mandragory",
+    "Námel",
+    "Nové koření",
+    "Vlákno han",
+    "Vlčí mor"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Poustevník",
+    "Druidi"
+   ]
+  },
+  {
+   "n": "O rostlinách jalové půdy",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Kniha popisuje vlčí aloe, bryonii, verbenu, zimolez a ginatii. Pojednává také o způsobech získávání alchymistických ingrediencí z těchto rostlin.",
+   "buy": 600,
+   "sell": 120,
+   "mon": [],
+   "ing": [
+    "Posed bílý",
+    "Okvětní plátky ginatie",
+    "Verbena",
+    "Vlčí aloe",
+    "Zimolez"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Knihkupec",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Ornitosauři",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Kniha obsahuje informace o samičkách a samcích wyvern, stejně jako o kurolišcích a bazilišcích.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [
+    "Bazilišek",
+    "Královská wyverna",
+    "Kurolišek",
+    "Wyverna"
+   ],
+   "ing": [
+    "Pírko kuroliška",
+    "Oko kuroliška",
+    "Toxin",
+    "Jedové váčky",
+    "Blána z křídla"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Kalkstein"
+   ]
+  },
+  {
+   "n": "Physiologus",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Slavné dílo obsahující množství faktů o různých stvořeních a příšerách.",
+   "buy": 1000,
+   "sell": 200,
+   "mon": [
+    "Garkain",
+    "Nekrofág"
+   ],
+   "ing": [
+    "Bílý ocet",
+    "Blána z křídla",
+    "Čelist nekrofága",
+    "Kameny z Ys",
+    "Lymfa zrůdnosti"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": false,
+    "find": false,
+    "reward": false
+   },
+   "vendors": []
+  },
+  {
+   "n": "Poznámky z experimentů",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Tato kniha popisuje výsledky výzkumu mutantů-válečníků.",
+   "buy": 1000,
+   "sell": 200,
+   "mon": [
+    "Ohař",
+    "Mutant",
+    "Mutant - bestie"
+   ],
+   "ing": [
+    "Mutagen",
+    "Hypofýza"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": false,
+    "find": false,
+    "reward": false
+   },
+   "vendors": []
+  },
+  {
+   "n": "Přeludy, přízraky a prokletí",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Kniha obsahuje informace o polednicích, půlnočnicích, přízracích a děsivém Divokém honu.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [
+    "Divoký hon",
+    "Polednice",
+    "Přelud",
+    "Půlnočnice"
+   ],
+   "ing": [
+    "Ektoplasma",
+    "Prach smrti",
+    "Zářící prach"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": true
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Kalkstein"
+   ]
+  },
+  {
+   "n": "Recept na Petriho filtr",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Petriho filtr: zvyšuje intenzitu všech znamení.",
+   "buy": 100,
+   "sell": 20,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Petriho filtr"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Recept na elixír Raffarda Bílého",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Lektvar Raffarda Bílého: navrací část ztracených životů.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Lektvar Raffarda Bílého"
+   ],
+   "rej": "",
+   "how": {
+    "buy": false,
+    "find": true,
+    "reward": true
+   },
+   "vendors": []
+  },
+  {
+   "n": "Recept na jed oběšenců",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Jed oběšencův: jedovatý olej na čepele.",
+   "buy": 300,
+   "sell": 60,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Jed oběšencův"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Recept na mariborský les",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Mariborský les: zvyšuje maximální úroveň odolnosti.",
+   "buy": 300,
+   "sell": 60,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Mariborský les"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Poustevník",
+    "Druidi"
+   ]
+  },
+  {
+   "n": "Recept na odvar de Vries",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Odvar de Vries: umožňuje rozpoznat neviditelné nepřátele.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Odvar de Vries"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Ryboocí aneb pojednání o rybolidech",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Bestiář popisující podvodní rasu válečníků a kleriků rybolidí a také tajemného Dagona.",
+   "buy": 600,
+   "sell": 120,
+   "mon": [],
+   "ing": [
+    "Kameny z Ys",
+    "Šlachy",
+    "Měchýř rybočlověka",
+    "Šupiny rybolidí"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Knihkupec"
+   ]
+  },
+  {
+   "n": "Samum (svitek)",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Svitek obsahuje formule pro: Samum: při výbuchu tato bomba omráčí protivníky. Hnědý olej: způsobuje krvácení z ran protivníků.",
+   "buy": 600,
+   "sell": 120,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Samum",
+    "Hnědý olej"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Tajemství mistrů jihu",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Svitek obsahuje formule pro následující bomby: Ďáblova pecka: po výbuchu bomba otráví protivníky. Zerrikánské Slunce: po výbuchu bomba oslepí protivníky.",
+   "buy": 400,
+   "sell": 80,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Ďáblova pecka",
+    "Zerrikánské Slunce"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": false
+   },
+   "vendors": [
+    "Knihkupec",
+    "Kalkstein",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Upíři: fakty a mýty",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Tato kniha obsahuje informace o nižších formách upírů jako jsou fleddeři a garkaini, stejně jako o těch vyšších; dokonce alpech a bruxách. Taktéž popisuje, jak s těmito krvesajnými protivníky bojovat.",
+   "buy": 600,
+   "sell": 120,
+   "mon": [
+    "Alpa",
+    "Bruxa",
+    "Fleder",
+    "Garkain"
+   ],
+   "ing": [
+    "Lymfa zrůdnosti",
+    "Tesáky alpy",
+    "Krev bruxy",
+    "Sliny garkaina",
+    "Naezanské soli",
+    "Blána z křídla"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Knihkupec",
+    "Poustevník"
+   ]
+  },
+  {
+   "n": "Velká kniha minerálů",
+   "icon": "Books_Generic_leaf_motif",
+   "kind": "Herbář",
+   "d": "Kniha pojednává o minerálech používaných v alchymii, včetně síry, Ginatské kyseliny, vinného kamene, Naezanských solí, Calcium equum, fosforu, práškové perle, pyritu, Optima mater, Páté esence, Knížecí vody, Albarových krystalů, Měsíčních úlomků a roztoku rtuti. Jsou zde také popsány alchymistické látky obsažené v těchto složkách.",
+   "buy": 600,
+   "sell": 120,
+   "mon": [],
+   "ing": [
+    "Albarovy krystaly",
+    "Calcium equum",
+    "Fosfor",
+    "Ginatská kyselina",
+    "Knížecí voda",
+    "Pátá esence",
+    "Měsíční úlomky",
+    "Naezanské soli",
+    "Optima mater",
+    "Prášková perla",
+    "Pyrit",
+    "Roztok rtuti",
+    "Síra",
+    "Vinný kámen"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Knihkupec",
+    "Poustevník",
+    "Druidi"
+   ]
+  },
+  {
+   "n": "Větší bratři (kniha)",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Dokumenty popisující nadlidi, supermutanty zvané větší bratři.",
+   "buy": 1000,
+   "sell": 200,
+   "mon": [
+    "Větší bratři",
+    "Mutant zabiják"
+   ],
+   "ing": [
+    "Mutagen",
+    "Hypofýza"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": false,
+    "find": false,
+    "reward": false
+   },
+   "vendors": []
+  },
+  {
+   "n": "Zerrikánská alchymie",
+   "icon": "Scrolls_generic_icon_red",
+   "kind": "Svitek s recepty",
+   "d": "Svitek obsahuje následující formule: Král a královna: po odpálení bomba magicky vyvolá v protivnících strach. Crinfridský olej: zranění protivníci pociťují akutní bolest.",
+   "buy": 200,
+   "sell": 40,
+   "mon": [],
+   "ing": [],
+   "rec": [
+    "Král a královna",
+    "Crinfridský olej"
+   ],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": true
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Kalkstein"
+   ]
+  },
+  {
+   "n": "Základy alchymie",
+   "icon": "Books_Generic_other",
+   "kind": "Příručka",
+   "d": "\"Pokud chceš pochopit základy alchymie, musíš pochopit dvě velké pravdy. První pravdou je: „Co je nahoře, je i dole.“ Druhá pak zní: „Vše jest jedním.“ Tyto pravdy říkají, že alchymistické substance jsou všude kolem tebe – v polním kvítí, v tkáni lidí i zvírat, a dokonce i v obyčejném kamení. Alchymie je život a život je alchymie. Až pochopíš alchymistické procesy, pochopíš také životní procesy a přírodní svet kolem tebe se stane otevřenou knihou. Ale alchymie je také věda. Hodí se do elixíru květ, nebo list? Kde nalézt vermillion, v ledvinách či v oku? Na tyto otázky odpovídají knihy. Čti tedy staré mistry, jakož i nová díla. Cvič si bylinkářské schopnosti a umění míchání olejů a prášků. A především musíš experimentovat, jelikož k největším alchymistickým objevům došlo právě skrze experimentování.\"",
+   "buy": 70,
+   "sell": 14,
+   "mon": [],
+   "ing": [],
+   "rec": [],
+   "rej": "Dodatečné substance",
+   "how": {
+    "buy": true,
+    "find": true,
+    "reward": true
+   },
+   "vendors": [
+    "Antikvarista",
+    "Knihkupec",
+    "Kalkstein"
+   ]
+  },
+  {
+   "n": "Zázračný svět insektoidů",
+   "icon": "Books_Generic_wolf_motif",
+   "kind": "Bestiář",
+   "d": "Kniha poskytuje cenné informace o kikimorách: dělnících, bojovnících a královnách. Zmiňuje se také o obřích stonožkách.",
+   "buy": 600,
+   "sell": 120,
+   "mon": [
+    "Skolopendromorf",
+    "Kikimoří bojovnice",
+    "Kikimoří dělnice"
+   ],
+   "ing": [
+    "Pařát kikimory",
+    "Dýchací trubice",
+    "Jedové váčky",
+    "Toxin"
+   ],
+   "rec": [],
+   "rej": "",
+   "how": {
+    "buy": true,
+    "find": false,
+    "reward": false
+   },
+   "vendors": [
+    "Knihkupec",
+    "Poustevník"
+   ]
+  }
+ ]
+}
